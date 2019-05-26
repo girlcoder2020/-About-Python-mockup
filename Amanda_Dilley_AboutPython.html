@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Python</title>
+    <style type="text/css">
+        *{
+			padding: 0px;
+			margin: 0px;
+            /*outline: 2px dotted red;*/
+        }
+        .container {
+            background-color: rgb(36, 80, 118);
+            width: 970px;
+            min-height: 900px;
+            /* outline: 2px dotted red; */
+        }
+        .block {
+           /* outline: 2px solid yellow;*/
+            width: 970px;
+            height: 540px;
+        }
+        .title {
+            width: 970px;
+            height: 130px;
+            outline: 2px solid white;
+        }
+        .logo {
+            display: inline-block;
+            width: 700px;
+            height: 130px;
+            outline: 2px solid green;
+        }
+        .search-box {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .text-size {
+            color: white;
+            width: 200px;
+            height: 25px;
+            vertical-align: top;
+            margin-left: 50px;
+        }
+        
+        .search-bar {
+            background-color: rgb(68, 68, 68);
+            width: 250px;
+            height: 50px;
+            padding-top: 5px;
+            border-radius: 10px;
+            box-shadow: 2px 2px;
+        }
+        .yellow {
+            color: yellow;
+            text-decoration: underline;
+        }
+        .yellow2 {
+            color: yellow;
+            font-style: italic;
+            line-height: 30px;
+        }
+        .black {
+            color: black;
+        }
+        .gray {
+            color: gray;
+        }
+        .white-bar {
+            display: inline-block;
+            background-color: white;
+            width: 150px;
+            height: 30px;
+            margin-top: 10px;
+            margin-left: 25px;
+            text-align: center;
+            padding-top: 2px;
+            
+        }
+        .white-bar ::before {
+            box-shadow: 1px gray;
+        }
+        .go-button {
+            display: inline-block;
+            background-color: rgb(36,80,118);
+            color: white;
+            height: 28px;
+            width: 35px;
+            margin-left: 10px;
+            text-align: center;
+            padding-top: 2px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px gainsboro;
+            }
+        .menu {
+            /*outline: 2px solid green;*/
+            background-color: rgb(66, 124, 173);
+            width: 850px;
+            height: 60px;
+            border-radius: 10px;
+            margin-left: 90px;
+            box-shadow: 2px 2px;
+        }
+        .menu-title {
+            display: inline-block;
+            color: white;
+            padding: 20px;
+            padding-left: 30px;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .nav {
+            /*outline: 2px solid green;*/
+            display: inline-block;
+            color: white;
+            height: 250px;
+            width: 240px;
+            padding: 50px;
+            text-align: center;
+            vertical-align: top;
+        }
+        ul     	     {
+		list-style: none;
+	     }
+        .links:before {
+		content: "\00BB \0020";
+        color: yellow;
+	     }
+         .nav-links {
+             line-height: 25px;
+         }
+         .links {
+             color: white;
+         }
+         .main {
+             /*outline: 2px solid green;*/
+             display: inline-block;
+             height: 330px;
+             width: 560px;
+             vertical-align: top;
+             color: white;
+             text-align: center;
+             padding-top: 20px;
+         }
+         .start {
+             /*outline: 2px solid green;*/
+             display: inline-block;
+             vertical-align: top;
+             background-color: white;
+             width: 483px;
+             height: 250px;
+             text-align: center;
+             margin: 0px;
+         }
+         .application {
+            /* outline: 2px solid green; */
+            display: inline-block;
+            vertical-align: top;
+            background-color: white;
+            width: 483px;
+            height: 250px;
+            text-align: center;
+            margin: 0px;
+         }
+         .start-box {
+             background-color: white;
+         }
+         .blue-bar {
+             background-color: rgb(115,167,213);
+             height: 5px;
+             width: 400px;
+             margin-top: 10px;
+             margin-left: 20px;
+        }
+        .blue {
+            color: rgb(137,181,220);
+        }
+        .box-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .white-box {
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        ul {
+		list-style: none;
+	     }
+        .box-list {
+            text-align: left;
+            padding-left: 150px;
+            list-style-type: square;
+        }
+        footer {
+            height: 150px;
+            background-image: linear-gradient(rgb(36, 80, 118),rgb(50,112,166));
+        }
+        .foot {
+            display: inline-block;
+            width: 200px;
+            height: 30px;
+            margin-top: 90px;
+            margin-left: 100px;
+            font-size: 15px;
+            font-family: sans-serif;
+            }
+            .copyright {
+            /* outline: 2px solid orange; */
+            text-align: center;
+            height: 40px;
+            font-size: 10px;
+            font-family: sans-serif;
+            margin-top: 10px;
+            }
+            .copy:after {
+                content:"\00a9";
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="title">
+                <div class="logo">
+                <img src="python-logo.png" alt="python logo" width="400" height="130">
+                </div>
+                <div class="search-box">
+                    <div class="text-size">Text Size: <span class="yellow">Normal</span> <span class="black">| </span> <span class="yellow">Large</span></div>
+                    <div class="search-bar">
+                    <div class="white-bar"><span class="gray">Search</span></div>
+                    <div class="go-button">Go</div>
+                </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-title">About</div>
+                <div class="menu-title">Downloads</div>
+                <div class="menu-title">Documentation</div>
+                <div class="menu-title">Community</div>
+                <div class="menu-title">News</div>
+                <div class="menu-title">Events</div>
+            </div>
+            <div class="nav">
+                <ul class="nav-links">
+                    <li><a href ="" class="links">Docs</a></li>
+                    <li><a href ="" class="links">Audio/Visual Talks</a></li>
+                    <li><a href ="" class="links">Beginner's Guide</a></li>
+                    <li><a href ="" class="links">Developer's Guide</a></li>
+                    <li><a href ="" class="links">PEP Index</a></li>
+                    <li><a href ="" class="links">Python Books</a></li>
+                    <li><a href ="" class="links">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications, Python is not onlya great language for new programmers but also powerful enough for seasoned developers building whatever they can think of. <br><br>
+                <p><span class="yellow2">
+                    Beautiful is better than ugly; <br>
+                    Explicit is better than implicit; <br>
+                    Simple is better than complex; <br>
+                    Complex is better than complicated; <br>
+                    Readability counts; <br></span>
+                    <br> The Zen of Python
+                </p>
+            </div>
+        </div>
+        <div class="start-box">
+            <div class="start"> 
+                <div class="blue-bar"></div>
+                <p class="box-title">Getting Started</p> <br>
+                <p class="white-box">
+                    Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python! <br>
+                </p> <br>
+                <ul class="box-list">
+                    <li><span class="blue">Beginner's Guide, Programmers</span></li>
+                    <li><span class="blue">Beginner's Guide, Non-Programmers</span></li>
+                    <li><span class="blue">Code sample and snippets for Beginners</span></li>
+                </ul>
+            </div>
+            <div class="application">
+                <div class="blue-bar"></div>
+                <p class="box-title">Applications</p><br>
+                <p class="white-box">
+                    The <span class="blue">Python Package Index (PyPI)</span> hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities.  
+                </p> <br>
+                <ul class="box-list">
+                    <li><span class="blue">Web and Internet Development</span></li>
+                    <li><span class="blue">Database Access</span></li>
+                    <li><span class="blue">Desktop GUIs</span></li>
+                    <li><span class="blue">Network Programming</span></li>
+                    <li><span class="blue">Software and Game Development</span></li>
+                </ul>
+            </div>
+        </div>
+    
+    <footer>
+        <p class="foot"><span class="blue">Help and General Contact</span></p>
+        <p class="foot"><span class="blue">Diversity Initiatives</span></p>
+        <p class="foot"><span class="blue">Submit Website Bugs</span></p>
+        <p class="copyright"><span class="blue"><span class="copy">Copyright</span> 2001-2016</span></p>
+    </footer>
+</div>
+</body>
+</html>
